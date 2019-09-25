@@ -5,6 +5,8 @@
  */
 package diseño;
 
+import static java.time.Clock.system;
+
 /**
  *
  * @author parri
@@ -15,7 +17,7 @@ public class Diseño {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       system.out.println("hola mundo");
+        System.out.println("hola mundo");
     }
     
 }
