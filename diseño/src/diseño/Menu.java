@@ -37,17 +37,17 @@ public class Menu extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(199, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(163, 163, 163)
                 .addComponent(jButton1)
-                .addGap(126, 126, 126))
+                .addContainerGap(162, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(202, Short.MAX_VALUE)
+                .addContainerGap(266, Short.MAX_VALUE)
                 .addComponent(jButton1)
-                .addGap(75, 75, 75))
+                .addContainerGap())
         );
 
         pack();
