@@ -38,7 +38,7 @@ public class InicioSesion extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
 
-        jButton1.setText("Ingresar");
+        jButton1.setText("todo culero");
 
         jLabel1.setText("Usuario");
 
