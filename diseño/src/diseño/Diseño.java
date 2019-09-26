@@ -6,7 +6,7 @@
 package diseño;
 
 import static java.time.Clock.system;
-
+import javax.swing.*;
 /**
  *
  * @author parri
