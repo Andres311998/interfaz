@@ -212,7 +212,7 @@ public class RegistrarUsuarios extends javax.swing.JFrame {
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
       Menu abrir=new Menu();
       abrir.setVisible(true);
-      this.setVisible(false);
+      this.dispose();
     }//GEN-LAST:event_jButton6ActionPerformed
 
     /**

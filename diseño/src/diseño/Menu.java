@@ -202,14 +202,14 @@ public class Menu extends javax.swing.JFrame {
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         RegistrarUsuarios abrir=new RegistrarUsuarios();
         abrir.setVisible(true);
-        this.setVisible(false);
+        this.dispose();
         abrir.setLocationRelativeTo(null);
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         Servicios abrir=new Servicios();
         abrir.setVisible(true);
-        this.setVisible(false);
+        this.dispose();
         abrir.setLocationRelativeTo(null);
     }//GEN-LAST:event_jButton4ActionPerformed
 
@@ -217,12 +217,13 @@ public class Menu extends javax.swing.JFrame {
       productos abrir=new productos();
       abrir.setVisible(true);
       abrir.setLocationRelativeTo(null);
-      this.setVisible(false);
+      this.dispose();
      
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-     dispose();
+
+     this.dispose();
     }//GEN-LAST:event_jButton7ActionPerformed
 
     /**

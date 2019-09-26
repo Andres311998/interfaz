@@ -188,7 +188,7 @@ public class productos extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
       Menu abrir=new Menu();
       abrir.setVisible(true);
-      this.setVisible(false);
+      this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
