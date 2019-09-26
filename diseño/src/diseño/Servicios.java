@@ -19,6 +19,7 @@ public class Servicios extends javax.swing.JFrame {
     public Servicios() {
         
        initComponents();
+       this.setResizable(false);
             
       
 
@@ -60,6 +61,7 @@ public class Servicios extends javax.swing.JFrame {
         setUndecorated(true);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         ComboServicio.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione tipo de serivicio", "Básculas Mecánicas", "Básculas Electrónicas", "Básculas Tolvas / Pesaje", "Básculas camioneras", "Básculas industriales" }));
@@ -128,7 +130,7 @@ public class Servicios extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel3.setText("ID del cliente:");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, -1, -1));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 180, -1, 20));
 
         jTextField3.setBorder(null);
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
@@ -136,7 +138,7 @@ public class Servicios extends javax.swing.JFrame {
                 jTextField3ActionPerformed(evt);
             }
         });
-        jPanel1.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 170, 173, 29));
+        jPanel1.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 170, 173, 30));
 
         jButton3.setBackground(new java.awt.Color(255, 255, 255));
         jButton3.setText("Regresar");
@@ -177,7 +179,7 @@ public class Servicios extends javax.swing.JFrame {
 
         jSeparator3.setBackground(new java.awt.Color(0, 0, 0));
         jSeparator3.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel1.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(132, 207, 173, -1));
+        jPanel1.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 200, 173, -1));
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel5.setText("$");
@@ -212,7 +214,7 @@ public class Servicios extends javax.swing.JFrame {
     }//GEN-LAST:event_ComboServicioMouseClicked
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-       System.exit(0);
+       dispose();
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
