@@ -46,7 +46,7 @@
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="199" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="200" max="-2" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -79,7 +79,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="todo culero"/>
+        <Property name="text" type="java.lang.String" value="Ingresar"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
