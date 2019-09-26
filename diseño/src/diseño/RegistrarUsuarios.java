@@ -112,7 +112,9 @@ public class RegistrarUsuarios extends javax.swing.JFrame {
         jLabel7.setText("Nombre de usuario: ");
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 330, -1, 20));
 
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/diseño/imagenes/salir.png"))); // NOI18N
+        jButton3.setBackground(new java.awt.Color(255, 255, 255));
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/diseño/imagenes/icons8_Multiply_32px.png"))); // NOI18N
+        jButton3.setBorder(null);
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
