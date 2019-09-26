@@ -141,9 +141,14 @@ public class Servicios extends javax.swing.JFrame {
         jPanel1.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 170, 173, 30));
 
         jButton3.setBackground(new java.awt.Color(255, 255, 255));
-        jButton3.setText("Regresar");
-        jButton3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 597, 84, 28));
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/diseño/imagenes/back min.png"))); // NOI18N
+        jButton3.setBorder(null);
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 580, 40, 40));
 
         jButton4.setBackground(new java.awt.Color(255, 255, 255));
         jButton4.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
@@ -232,6 +237,12 @@ public class Servicios extends javax.swing.JFrame {
     private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        Menu abrir=new Menu();
+        abrir.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments

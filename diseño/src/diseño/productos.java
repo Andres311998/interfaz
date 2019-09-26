@@ -16,6 +16,8 @@ public class productos extends javax.swing.JFrame {
      */
     public productos() {
         initComponents();
+        setLocationRelativeTo(null);     
+        
     }
 
     /**
@@ -45,9 +47,8 @@ public class productos extends javax.swing.JFrame {
         jTextField2 = new javax.swing.JTextField();
         jTextField3 = new javax.swing.JTextField();
         jTextField4 = new javax.swing.JTextField();
-        jTextField5 = new javax.swing.JTextField();
-        jTextField7 = new javax.swing.JTextField();
         jSeparator3 = new javax.swing.JSeparator();
+        jTextField5 = new javax.swing.JTextField();
         jComboBox1 = new javax.swing.JComboBox<>();
         jLabel8 = new javax.swing.JLabel();
         jSeparator4 = new javax.swing.JSeparator();
@@ -57,8 +58,11 @@ public class productos extends javax.swing.JFrame {
         jSeparator8 = new javax.swing.JSeparator();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jSeparator1.setBackground(new java.awt.Color(204, 102, 0));
@@ -96,7 +100,12 @@ public class productos extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/diseño/imagenes/back min.png"))); // NOI18N
         jButton1.setBorder(null);
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 453, 40, 40));
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 450, 40, 40));
 
         jButton2.setBackground(new java.awt.Color(255, 255, 255));
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
@@ -121,6 +130,7 @@ public class productos extends javax.swing.JFrame {
         jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 150, 240, 20));
 
         jTextField3.setBorder(null);
+        jTextField3.setSelectedTextColor(new java.awt.Color(0, 0, 0));
         jPanel1.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 200, 240, 20));
 
         jTextField4.setBorder(null);
@@ -131,15 +141,12 @@ public class productos extends javax.swing.JFrame {
         });
         jPanel1.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 250, 240, 20));
 
-        jTextField5.setBorder(null);
-        jPanel1.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 290, 110, 20));
-
-        jTextField7.setBorder(null);
-        jPanel1.add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 10, 220, 20));
-
         jSeparator3.setBackground(new java.awt.Color(0, 0, 0));
         jSeparator3.setForeground(new java.awt.Color(0, 0, 0));
-        jPanel1.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, 230, 10));
+        jPanel1.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 30, 230, -1));
+
+        jTextField5.setBorder(null);
+        jPanel1.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 290, 110, 20));
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "PZ", "KG", "KIT", "PAQUETE", "ONZA", " " }));
         jPanel1.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 340, 130, -1));
@@ -149,6 +156,7 @@ public class productos extends javax.swing.JFrame {
 
         jSeparator4.setBackground(new java.awt.Color(0, 0, 0));
         jSeparator4.setForeground(new java.awt.Color(0, 0, 0));
+        jSeparator4.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         jPanel1.add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 120, 250, 10));
 
         jSeparator5.setBackground(new java.awt.Color(0, 0, 0));
@@ -162,21 +170,13 @@ public class productos extends javax.swing.JFrame {
         jSeparator7.setBackground(new java.awt.Color(0, 0, 0));
         jSeparator7.setForeground(new java.awt.Color(0, 0, 0));
         jPanel1.add(jSeparator7, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 220, 250, 10));
+        jSeparator7.getAccessibleContext().setAccessibleParent(jSeparator1);
 
         jSeparator8.setBackground(new java.awt.Color(0, 0, 0));
         jSeparator8.setForeground(new java.awt.Color(0, 0, 0));
         jPanel1.add(jSeparator8, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 170, 250, 10));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 500, 500));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -184,6 +184,12 @@ public class productos extends javax.swing.JFrame {
     private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField4ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+      Menu abrir=new Menu();
+      abrir.setVisible(true);
+      this.setVisible(false);
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -248,6 +254,5 @@ public class productos extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
-    private javax.swing.JTextField jTextField7;
     // End of variables declaration//GEN-END:variables
 }
