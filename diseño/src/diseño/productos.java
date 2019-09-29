@@ -196,17 +196,17 @@ public class productos extends javax.swing.JFrame {
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/diseño/imagenes/agregar min.png"))); // NOI18N
         jButton2.setBorder(null);
-        jPanel4.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 10, 40, 40));
+        jPanel4.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 10, 40, 40));
 
         jButton3.setBackground(new java.awt.Color(0, 153, 153));
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/diseño/imagenes/editar min.png"))); // NOI18N
         jButton3.setBorder(null);
-        jPanel4.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 10, 40, 40));
+        jPanel4.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 10, 40, 40));
 
         jButton4.setBackground(new java.awt.Color(0, 153, 153));
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/diseño/imagenes/eliminar min.png"))); // NOI18N
         jButton4.setBorder(null);
-        jPanel4.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 10, 40, 40));
+        jPanel4.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 10, 40, 40));
 
         jButton1.setBackground(new java.awt.Color(0, 153, 153));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/diseño/imagenes/back min.png"))); // NOI18N
@@ -216,7 +216,7 @@ public class productos extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel4.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 40, 40));
+        jPanel4.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 40, 40));
 
         jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 450, 450, 60));
 
