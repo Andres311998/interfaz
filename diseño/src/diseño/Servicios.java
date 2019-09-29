@@ -67,11 +67,11 @@ public class Servicios extends javax.swing.JFrame {
         setTitle("Cálculo de Servicios");
         setUndecorated(true);
 
-        jPanel1.setBackground(new java.awt.Color(0, 102, 102));
+        jPanel1.setBackground(new java.awt.Color(44, 62, 80));
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        ComboServicio.setBackground(new java.awt.Color(0, 102, 102));
+        ComboServicio.setBackground(new java.awt.Color(44, 62, 80));
         ComboServicio.setForeground(new java.awt.Color(255, 255, 255));
         ComboServicio.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione tipo de serivicio", "Básculas Mecánicas", "Básculas Electrónicas", "Básculas Tolvas / Pesaje", "Básculas camioneras", "Básculas industriales" }));
         ComboServicio.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -104,7 +104,7 @@ public class Servicios extends javax.swing.JFrame {
         });
         jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 500, 127, -1));
 
-        jTextField1.setBackground(new java.awt.Color(0, 102, 102));
+        jTextField1.setBackground(new java.awt.Color(44, 62, 80));
         jTextField1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(255, 255, 255));
         jTextField1.setBorder(null);
@@ -133,7 +133,7 @@ public class Servicios extends javax.swing.JFrame {
         });
         jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 460, 150, 70));
 
-        jTextField2.setBackground(new java.awt.Color(0, 102, 102));
+        jTextField2.setBackground(new java.awt.Color(44, 62, 80));
         jTextField2.setForeground(new java.awt.Color(255, 255, 255));
         jTextField2.setBorder(null);
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
@@ -148,7 +148,7 @@ public class Servicios extends javax.swing.JFrame {
         jLabel3.setText("ID del cliente:");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 180, -1, 20));
 
-        jTextField3.setBackground(new java.awt.Color(0, 102, 102));
+        jTextField3.setBackground(new java.awt.Color(44, 62, 80));
         jTextField3.setForeground(new java.awt.Color(255, 255, 255));
         jTextField3.setBorder(null);
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
@@ -158,7 +158,7 @@ public class Servicios extends javax.swing.JFrame {
         });
         jPanel1.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 180, 173, 20));
 
-        jButton3.setBackground(new java.awt.Color(0, 102, 102));
+        jButton3.setBackground(new java.awt.Color(44, 62, 80));
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/diseño/imagenes/back min.png"))); // NOI18N
         jButton3.setBorder(null);
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -168,6 +168,7 @@ public class Servicios extends javax.swing.JFrame {
         });
         jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 580, 40, 40));
 
+        labelF.setBackground(new java.awt.Color(44, 62, 80));
         labelF.setIcon(new javax.swing.ImageIcon(getClass().getResource("/diseño/imagenes/logo_basculasochmen_1.png"))); // NOI18N
         jPanel1.add(labelF, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, -1, -1));
 
@@ -201,47 +202,47 @@ public class Servicios extends javax.swing.JFrame {
         jSeparator4.setForeground(new java.awt.Color(0, 0, 0));
         jPanel1.add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 260, 173, -1));
 
-        jRadioButton1.setBackground(new java.awt.Color(0, 102, 102));
+        jRadioButton1.setBackground(new java.awt.Color(44, 62, 80));
         jRadioButton1.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton1.setText("Indicadores");
         jPanel1.add(jRadioButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, 140, -1));
 
-        jRadioButton2.setBackground(new java.awt.Color(0, 102, 102));
+        jRadioButton2.setBackground(new java.awt.Color(44, 62, 80));
         jRadioButton2.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton2.setText("Sensor medidor");
         jPanel1.add(jRadioButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 330, 130, -1));
 
-        jRadioButton3.setBackground(new java.awt.Color(0, 102, 102));
+        jRadioButton3.setBackground(new java.awt.Color(44, 62, 80));
         jRadioButton3.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton3.setText("Celdas de carga");
         jPanel1.add(jRadioButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 330, 140, -1));
 
-        jRadioButton4.setBackground(new java.awt.Color(0, 102, 102));
+        jRadioButton4.setBackground(new java.awt.Color(44, 62, 80));
         jRadioButton4.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton4.setText("cable de corriente");
         jPanel1.add(jRadioButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, 140, -1));
 
-        jRadioButton5.setBackground(new java.awt.Color(0, 102, 102));
+        jRadioButton5.setBackground(new java.awt.Color(44, 62, 80));
         jRadioButton5.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton5.setText("Bateria");
         jPanel1.add(jRadioButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, 130, -1));
 
-        jRadioButton6.setBackground(new java.awt.Color(0, 102, 102));
+        jRadioButton6.setBackground(new java.awt.Color(44, 62, 80));
         jRadioButton6.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton6.setText("jRadioButton6");
         jPanel1.add(jRadioButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 370, 140, -1));
 
-        jRadioButton7.setBackground(new java.awt.Color(0, 102, 102));
+        jRadioButton7.setBackground(new java.awt.Color(44, 62, 80));
         jRadioButton7.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton7.setText("Calibracion");
         jPanel1.add(jRadioButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 410, 140, -1));
 
-        jRadioButton8.setBackground(new java.awt.Color(0, 102, 102));
+        jRadioButton8.setBackground(new java.awt.Color(44, 62, 80));
         jRadioButton8.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton8.setText("Centro de carga");
         jPanel1.add(jRadioButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 410, 130, -1));
 
-        jRadioButton9.setBackground(new java.awt.Color(0, 102, 102));
+        jRadioButton9.setBackground(new java.awt.Color(44, 62, 80));
         jRadioButton9.setForeground(new java.awt.Color(255, 255, 255));
         jRadioButton9.setText("jRadioButton9");
         jPanel1.add(jRadioButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 410, 130, -1));

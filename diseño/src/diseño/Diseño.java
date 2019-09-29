@@ -17,7 +17,7 @@ public class Diseño {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        InicioSesion mostrar=new InicioSesion();
+        sesion mostrar=new sesion();
         mostrar.setVisible(true);
         
     }
