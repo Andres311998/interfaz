@@ -80,6 +80,11 @@ public class productos extends javax.swing.JFrame {
         jButton5.setBackground(new java.awt.Color(0, 153, 153));
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/diseño/imagenes/buscar min.png"))); // NOI18N
         jButton5.setBorder(null);
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
         jPanel2.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 20, -1, -1));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
@@ -196,16 +201,31 @@ public class productos extends javax.swing.JFrame {
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/diseño/imagenes/agregar min.png"))); // NOI18N
         jButton2.setBorder(null);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         jPanel4.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 10, 40, 40));
 
         jButton3.setBackground(new java.awt.Color(0, 153, 153));
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/diseño/imagenes/editar min.png"))); // NOI18N
         jButton3.setBorder(null);
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
         jPanel4.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 10, 40, 40));
 
         jButton4.setBackground(new java.awt.Color(0, 153, 153));
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/diseño/imagenes/eliminar min.png"))); // NOI18N
         jButton4.setBorder(null);
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
         jPanel4.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 10, 40, 40));
 
         jButton1.setBackground(new java.awt.Color(0, 153, 153));
@@ -269,6 +289,30 @@ public class productos extends javax.swing.JFrame {
         sonido.play();
         dispose();
     }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+       AudioClip sonido;
+        sonido=java.applet.Applet.newAudioClip(getClass().getResource("sonidos/SD_NAVIGATE_53.wav"));
+        sonido.play();
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+       AudioClip sonido;
+        sonido=java.applet.Applet.newAudioClip(getClass().getResource("sonidos/SD_NAVIGATE_53.wav"));
+        sonido.play();
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        AudioClip sonido;
+        sonido=java.applet.Applet.newAudioClip(getClass().getResource("sonidos/SD_NAVIGATE_53.wav"));
+        sonido.play();
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        AudioClip sonido;
+        sonido=java.applet.Applet.newAudioClip(getClass().getResource("sonidos/SD_NAVIGATE_53.wav"));
+        sonido.play();
+    }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
      * @param args the command line arguments

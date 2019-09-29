@@ -344,6 +344,11 @@ public class RegistrarUsuarios extends javax.swing.JFrame {
         jButton1.setForeground(new java.awt.Color(0, 102, 102));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/diseño/imagenes/Buscar usuario.png"))); // NOI18N
         jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -443,6 +448,12 @@ public class RegistrarUsuarios extends javax.swing.JFrame {
         sonido=java.applet.Applet.newAudioClip(getClass().getResource("sonidos/SD_NAVIGATE_53.wav"));
         sonido.play();
     }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+       AudioClip sonido;
+        sonido=java.applet.Applet.newAudioClip(getClass().getResource("sonidos/SD_NAVIGATE_53.wav"));
+        sonido.play();
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
