@@ -59,12 +59,12 @@ public class Menu extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(0, 153, 153));
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jPanel2.setBackground(new java.awt.Color(44, 62, 80));
+        jPanel2.setBackground(new java.awt.Color(26, 186, 154));
         jPanel2.setForeground(new java.awt.Color(204, 102, 0));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/diseño/imagenes/logo_basculasochmen.png"))); // NOI18N
 
-        jPanel3.setBackground(new java.awt.Color(44, 62, 80));
+        jPanel3.setBackground(new java.awt.Color(26, 186, 154));
         jPanel3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel3.setForeground(new java.awt.Color(0, 102, 102));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -182,29 +182,29 @@ public class Menu extends javax.swing.JFrame {
             .addComponent(jPanel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
-        jMenuBar1.setBackground(new java.awt.Color(44, 62, 80));
+        jMenuBar1.setBackground(new java.awt.Color(0, 102, 102));
         jMenuBar1.setForeground(new java.awt.Color(0, 102, 102));
 
-        jMenu1.setBackground(new java.awt.Color(44, 62, 80));
+        jMenu1.setBackground(new java.awt.Color(0, 102, 102));
         jMenu1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jMenu1.setForeground(new java.awt.Color(255, 255, 255));
         jMenu1.setText("programa ");
         jMenu1.setToolTipText("importar\n");
         jMenu1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
 
-        jMenuItem1.setBackground(new java.awt.Color(44, 62, 80));
+        jMenuItem1.setBackground(new java.awt.Color(0, 102, 102));
         jMenuItem1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jMenuItem1.setText("Importar");
         jMenu1.add(jMenuItem1);
         jMenu1.add(jSeparator4);
 
-        jMenuItem2.setBackground(new java.awt.Color(44, 62, 80));
+        jMenuItem2.setBackground(new java.awt.Color(0, 102, 102));
         jMenuItem2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jMenuItem2.setText("Exportar");
         jMenu1.add(jMenuItem2);
         jMenu1.add(jSeparator3);
 
-        jMenuItem4.setBackground(new java.awt.Color(44, 62, 80));
+        jMenuItem4.setBackground(new java.awt.Color(0, 102, 102));
         jMenuItem4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jMenuItem4.setText("Crear Respaldo");
         jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
@@ -216,7 +216,7 @@ public class Menu extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu1);
 
-        jMenu2.setBackground(new java.awt.Color(44, 62, 80));
+        jMenu2.setBackground(new java.awt.Color(0, 102, 102));
         jMenu2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jMenu2.setForeground(new java.awt.Color(255, 255, 255));
         jMenu2.setText("Acerca de");
