@@ -5,6 +5,8 @@
  */
 package diseño;
 
+import java.applet.AudioClip;
+
 /**
  *
  * @author dos
@@ -295,12 +297,18 @@ public class Servicios extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        AudioClip sonido;
+        sonido=java.applet.Applet.newAudioClip(getClass().getResource("sonidos/UD3.wav"));
+        sonido.play();
         Menu abrir = new Menu();
         abrir.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        AudioClip sonido;
+        sonido=java.applet.Applet.newAudioClip(getClass().getResource("sonidos/UD3.wav"));
+        sonido.play();
         dispose();
     }//GEN-LAST:event_jButton5ActionPerformed
 
