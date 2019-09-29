@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package diseño;
+
 import java.applet.AudioClip;
 
 /**
@@ -83,6 +84,11 @@ public class Menu extends javax.swing.JFrame {
         jButton5.setForeground(new java.awt.Color(255, 255, 255));
         jButton5.setText("Clientes");
         jButton5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
         jPanel3.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 0, 117, 32));
 
         jButton1.setBackground(new java.awt.Color(0, 153, 153));
@@ -91,6 +97,11 @@ public class Menu extends javax.swing.JFrame {
         jButton1.setText("Cobrar");
         jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1.setMargin(new java.awt.Insets(1, 14, 1, 14));
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
         jPanel3.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 110, 32));
 
         jButton4.setBackground(new java.awt.Color(0, 153, 153));
@@ -110,6 +121,11 @@ public class Menu extends javax.swing.JFrame {
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("Facturacion");
         jButton3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
         jPanel3.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 0, 110, 32));
 
         jButton2.setBackground(new java.awt.Color(0, 153, 153));
@@ -221,28 +237,34 @@ public class Menu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
-       
+
     }//GEN-LAST:event_jMenuItem4ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        RegistrarUsuarios abrir=new RegistrarUsuarios();
+        AudioClip sonido;
+        sonido = java.applet.Applet.newAudioClip(getClass().getResource("sonidos/SD_NAVIGATE_53.wav"));
+        sonido.play();
+        RegistrarUsuarios abrir = new RegistrarUsuarios();
         abrir.setVisible(true);
         this.dispose();
         abrir.setLocationRelativeTo(null);
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
- AudioClip sonido;
-        sonido=java.applet.Applet.newAudioClip(getClass().getResource("sonidos/au2.wav"));
+        AudioClip sonido;
+        sonido = java.applet.Applet.newAudioClip(getClass().getResource("sonidos/SD_NAVIGATE_53.wav"));
         sonido.play();
-        Servicios abrir=new Servicios();
+        Servicios abrir = new Servicios();
         abrir.setVisible(true);
         this.dispose();
         abrir.setLocationRelativeTo(null);
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        productos abrir=new productos();
+        AudioClip sonido;
+        sonido = java.applet.Applet.newAudioClip(getClass().getResource("sonidos/SD_NAVIGATE_53.wav"));
+        sonido.play();
+        productos abrir = new productos();
         abrir.setVisible(true);
         abrir.setLocationRelativeTo(null);
         this.dispose();
@@ -250,10 +272,30 @@ public class Menu extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
- AudioClip sonido;
-        
+        AudioClip sonido;
+        sonido = java.applet.Applet.newAudioClip(getClass().getResource("sonidos/analogico_1.wav"));
+        sonido.play();
+
         this.dispose();
     }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        AudioClip sonido;
+        sonido = java.applet.Applet.newAudioClip(getClass().getResource("sonidos/SD_NAVIGATE_53.wav"));
+        sonido.play();
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        AudioClip sonido;
+        sonido = java.applet.Applet.newAudioClip(getClass().getResource("sonidos/SD_NAVIGATE_53.wav"));
+        sonido.play();
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        AudioClip sonido;
+        sonido = java.applet.Applet.newAudioClip(getClass().getResource("sonidos/SD_NAVIGATE_53.wav"));
+        sonido.play();
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments

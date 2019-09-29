@@ -5,6 +5,8 @@
  */
 package diseño;
 
+import java.applet.AudioClip;
+
 /**
  *
  * @author parri
@@ -16,8 +18,8 @@ public class productos extends javax.swing.JFrame {
      */
     public productos() {
         initComponents();
-        setLocationRelativeTo(null);     
-        
+        setLocationRelativeTo(null);
+
     }
 
     /**
@@ -229,13 +231,19 @@ public class productos extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField4ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-      Menu abrir=new Menu();
-      abrir.setVisible(true);
-      this.dispose();
+        AudioClip sonido;
+        sonido = java.applet.Applet.newAudioClip(getClass().getResource("sonidos/analogico_1.wav"));
+        sonido.play();
+        Menu abrir = new Menu();
+        abrir.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
- dispose();
+        AudioClip sonido;
+        sonido = java.applet.Applet.newAudioClip(getClass().getResource("sonidos/analogico_1.wav"));
+        sonido.play();
+        dispose();
     }//GEN-LAST:event_jButton6ActionPerformed
 
     /**

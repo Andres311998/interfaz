@@ -298,7 +298,7 @@ public class Servicios extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         AudioClip sonido;
-        sonido=java.applet.Applet.newAudioClip(getClass().getResource("sonidos/UD3.wav"));
+        sonido=java.applet.Applet.newAudioClip(getClass().getResource("sonidos/analogico_1.wav"));
         sonido.play();
         Menu abrir = new Menu();
         abrir.setVisible(true);
@@ -307,7 +307,7 @@ public class Servicios extends javax.swing.JFrame {
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         AudioClip sonido;
-        sonido=java.applet.Applet.newAudioClip(getClass().getResource("sonidos/UD3.wav"));
+        sonido=java.applet.Applet.newAudioClip(getClass().getResource("sonidos/analogico_1.wav"));
         sonido.play();
         dispose();
     }//GEN-LAST:event_jButton5ActionPerformed
