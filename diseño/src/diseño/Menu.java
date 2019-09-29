@@ -184,12 +184,13 @@ public class Menu extends javax.swing.JFrame {
         jMenu1.setBackground(new java.awt.Color(0, 102, 102));
         jMenu1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jMenu1.setForeground(new java.awt.Color(255, 255, 255));
-        jMenu1.setText("programa ");
+        jMenu1.setText("Archivo");
         jMenu1.setToolTipText("importar\n");
         jMenu1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
 
         jMenuItem1.setBackground(new java.awt.Color(0, 102, 102));
         jMenuItem1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jMenuItem1.setForeground(new java.awt.Color(255, 255, 255));
         jMenuItem1.setText("Importar");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -201,6 +202,7 @@ public class Menu extends javax.swing.JFrame {
 
         jMenuItem2.setBackground(new java.awt.Color(0, 102, 102));
         jMenuItem2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jMenuItem2.setForeground(new java.awt.Color(255, 255, 255));
         jMenuItem2.setText("Exportar");
         jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -212,6 +214,7 @@ public class Menu extends javax.swing.JFrame {
 
         jMenuItem4.setBackground(new java.awt.Color(0, 102, 102));
         jMenuItem4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jMenuItem4.setForeground(new java.awt.Color(255, 255, 255));
         jMenuItem4.setText("Crear Respaldo");
         jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -223,6 +226,7 @@ public class Menu extends javax.swing.JFrame {
 
         jMenuItem3.setBackground(new java.awt.Color(0, 102, 102));
         jMenuItem3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jMenuItem3.setForeground(new java.awt.Color(255, 255, 255));
         jMenuItem3.setText("Cambiar de usuario");
         jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -234,6 +238,7 @@ public class Menu extends javax.swing.JFrame {
 
         jMenuItem5.setBackground(new java.awt.Color(0, 102, 102));
         jMenuItem5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jMenuItem5.setForeground(new java.awt.Color(255, 255, 255));
         jMenuItem5.setText("Acerca de ");
         jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
