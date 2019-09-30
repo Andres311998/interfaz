@@ -312,12 +312,20 @@ public class Menu extends javax.swing.JFrame {
         AudioClip sonido;
         sonido = java.applet.Applet.newAudioClip(getClass().getResource("sonidos/SD_NAVIGATE_53.wav"));
         sonido.play();
+        clientes abrir=new clientes();
+        abrir.setLocationRelativeTo(null);
+        abrir.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         AudioClip sonido;
         sonido = java.applet.Applet.newAudioClip(getClass().getResource("sonidos/SD_NAVIGATE_53.wav"));
         sonido.play();
+        Cobrar abrir=new Cobrar();
+        abrir.setLocationRelativeTo(null);
+        abrir.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
