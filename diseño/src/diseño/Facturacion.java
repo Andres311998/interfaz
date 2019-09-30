@@ -95,10 +95,10 @@ public class Facturacion extends javax.swing.JFrame {
         jPanel2.add(jSeparator9, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 40, 250, 10));
 
         jButton7.setText("Buscar empleado");
-        jPanel2.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, -1, -1));
+        jPanel2.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 60, 140, -1));
 
         jButton8.setText("Buscar cliente");
-        jPanel2.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 50, -1, -1));
+        jPanel2.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 60, 120, -1));
 
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 450, 100));
         jPanel2.getAccessibleContext().setAccessibleName("Facturacion");
